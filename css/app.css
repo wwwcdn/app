@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+ * {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+            vertical-align: baseline;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0 auto;
+            padding: 0;
+			max-width:640px;
+            font-size: 12px;
+            font-family: Microsoft Yahei, Arial, Simsun, Helvetica, Segoe UI, sans-serif;
+            color: #404040;
+            background-color: #fff;
+        }
+
+        img {
+            border: 0
+        }
+
+        ul, ol, li, dt, dl, dd {
+            text-decoration: none;
+            list-style: none;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: #373737;
+            text-decoration: none;
+        }
+	
+
+.nav {width:100%;max-width:640px;height:50px;background:#fff;position:fixed;bottom:0;box-shadow:#ddd 0px -3px 4px;z-index:3000;}
+.nav li {color:#777;font-size:1.1em;width:20%;text-align:center;float:left;} 
+.nav li p {margin-top:28px;}
+#sheetLink {background:url(../images/menu_sheet.png) top 5px center no-repeat;background-size:25px;}
+#storeLink {background:url(../images/menu_store.png) top 5px center no-repeat;background-size:25px;}
+#communityLink {background:url(../images/menu_community.png) top 5px center no-repeat;background-size:25px;}
+#bandLink {background:url(../images/menu_band.png) top 5px center no-repeat;background-size:25px;}
+#myLink {background:url(../images/menu_my.png) top 5px center no-repeat;background-size:25px;}
+.nav .on #sheetLink {color:#f2673c;background:url(../images/menu_sheet_on.png) top 5px center no-repeat;background-size:25px;}
+.nav .on #storeLink {color:#f2673c;background:url(../images/menu_store_on.png) top 5px center no-repeat;background-size:25px;}
+.nav .on #communityLink {color:#f2673c;background:url(../images/menu_community_on.png) top 5px center no-repeat;background-size:25px;}
+.nav .on #bandLink {color:#f2673c;background:url(../images/menu_band_on.png) top 5px center no-repeat;background-size:25px;}
+.nav .on #myLink {color:#f2673c;background:url(../images/menu_my_on.png) top 5px center no-repeat;background-size:25px;}
